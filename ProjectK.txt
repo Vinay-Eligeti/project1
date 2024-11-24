@@ -1,4 +1,4 @@
-#Pract 1- Linear Regression 
+#Pract1- Linear Regression 
 data(cars) 
 
 
@@ -124,7 +124,7 @@ print(paste('Accuracy for test is found to be', ac_Test*100))
 
 -----------------------------------------------------------------------------------
 
-#Pract 5-Linear Programming Problem
+#Pract5-Linear Programming Problem
 install.packages("lpSolve") 
 library(lpSolve)
 #Max z=3x1+2x2 Subject to x1+x2<=4,x1-x2<=2 
@@ -151,7 +151,7 @@ print(paste('Value of x3 is',z1[3]))
 
 --------------------------------------------------------------------------------------
 
-#Pract 6-Assignment Problem
+#Pract6-Assignment Problem
 install.packages("lpSolve")
 install.packages("RcppHungarian")
 library(lpSolve) #Square Matrix 4x4
